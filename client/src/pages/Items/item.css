@@ -1,0 +1,106 @@
+/* ---------------- Card ---------------- */
+
+.ant-card {
+  border-radius: 20px !important;
+}
+
+/* ---------------- Table ---------------- */
+
+.ant-table {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.ant-table-thead > tr > th {
+  background: #f8fafc !important;
+  color: #334155;
+  font-weight: 600;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.ant-table-tbody > tr {
+  transition: all .25s ease;
+}
+
+.ant-table-tbody > tr:hover {
+  background: #eef6ff !important;
+  transform: scale(1.002);
+}
+
+.ant-table-tbody > tr:hover td {
+  background: transparent !important;
+}
+
+/* ---------------- Buttons ---------------- */
+
+.ant-btn{
+  transition:all .25s ease;
+}
+
+.ant-btn:hover{
+  transform:translateY(-2px);
+}
+
+/* ---------------- Search ---------------- */
+
+.ant-input-affix-wrapper{
+  border-radius:12px !important;
+}
+
+/* ---------------- Modal ---------------- */
+
+.ant-modal-content{
+  border-radius:20px !important;
+}
+
+.ant-modal-header{
+  border-radius:20px 20px 0 0;
+}
+
+.ant-modal-footer{
+  margin-top:25px;
+}
+
+/* ---------------- Pagination ---------------- */
+
+.ant-pagination{
+  margin-top:20px !important;
+}
+
+/* ---------------- Avatar ---------------- */
+
+.ant-avatar{
+  font-weight:600;
+}
+
+/* ---------------- Delete Popconfirm ---------------- */
+
+.delete-popconfirm .ant-popover-inner{
+  border-radius:16px;
+  padding:18px;
+  box-shadow:0 15px 40px rgba(0,0,0,.12);
+}
+
+.delete-popconfirm .ant-popconfirm-title{
+  font-size:16px;
+  font-weight:600;
+}
+
+.delete-popconfirm .ant-popconfirm-description{
+  color:#64748b;
+}
+
+.delete-popconfirm .ant-popconfirm-buttons{
+  margin-top:18px;
+}
+
+.delete-popconfirm .ant-btn{
+  border-radius:10px;
+}
+
+/* ---------------- Tag ---------------- */
+
+.ant-tag{
+  font-weight:600;
+  border:none;
+}

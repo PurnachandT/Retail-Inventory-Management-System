@@ -1,0 +1,18 @@
+.latest-bills .ant-table-tbody > tr{
+    transition: all .25s ease;
+}
+
+.latest-bills .ant-table-tbody > tr:hover{
+    background:#eef6ff !important;
+    transform:scale(1.01);
+    box-shadow:0 8px 20px rgba(22,119,255,.08);
+}
+
+.latest-bills .ant-table-cell{
+    border-bottom:1px solid #f1f5f9 !important;
+}
+
+.latest-bills .ant-table-thead > tr > th{
+    font-weight:600;
+    background:#fafcff !important;
+}
